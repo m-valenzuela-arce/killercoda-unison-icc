@@ -4,7 +4,7 @@
   "description": "Navegación, archivos, grep/pipes y procesos.",
   "difficulty": "beginner",
   "time": "40",
-  "backend": { "imageid": "ubuntu:24.04" },
+  "backend": { "imageid": "ubuntu" },
   "environment": { "uilayout": "terminal" },
   "details": {
     "intro": { "text": "intro.md" },
