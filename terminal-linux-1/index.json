@@ -1,0 +1,21 @@
+{
+  "type": "challenge@1.0",
+  "title": "Parcial 1 – Terminal Linux (UNISON)",
+  "description": "Navegación, archivos, grep/pipes y procesos.",
+  "difficulty": "beginner",
+  "time": 40,
+  "backend": { "imageid": "ubuntu:24.04" },
+  "environment": { "uilayout": "terminal" },
+  "details": {
+    "intro": { "text": "intro.md" },
+    "steps": [
+      { "title": "A) Navegación y archivos", "text": "step1.md", "verify": "verify-step1.sh" },
+      { "title": "B) grep y pipes",         "text": "step2.md", "verify": "verify-step2.sh" },
+      { "title": "C) Procesos (ps/kill)",   "text": "step3.md", "verify": "verify-step3.sh" }
+    ],
+    "finish": { "text": "finish.md" }
+  },
+  "assets": { "host01": [] },
+  "foreground": "foreground.sh",
+  "background": "background.sh"
+}
